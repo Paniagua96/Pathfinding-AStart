@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement class="buttons-container" />
+    <ui:IMGUIContainer style="opacity: 1; justify-content: flex-start; background-color: rgb(32, 32, 32);">
+        <ui:Button text="Connect" display-tooltip-when-elided="true" name="btnConnect" style="background-color: rgb(57, 144, 37); color: rgb(0, 0, 0); font-size: 16px;" />
+        <ui:Button text="Delete" display-tooltip-when-elided="true" name="btnDelete" style="background-color: rgb(144, 101, 37); color: rgb(0, 0, 0); font-size: 16px;" />
+        <ui:Button text="DeleteAll" display-tooltip-when-elided="true" name="btnDeleteAll" style="background-color: rgb(144, 39, 37); color: rgb(0, 0, 0); font-size: 16px; display: flex;" />
+        <ui:Button text="UpdateGizmos" display-tooltip-when-elided="true" name="btnUpdateGizmos" style="background-color: rgb(138, 136, 147); color: rgb(0, 0, 0); font-size: 16px; display: flex;" />
+    </ui:IMGUIContainer>
+</ui:UXML>

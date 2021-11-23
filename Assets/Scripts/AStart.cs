@@ -2,17 +2,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using System.Collections;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.Rendering;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class AStart : MonoBehaviour
 {
-    private List<Node> testNode = new List<Node>();
     public Node start;
     public Node end;
     public Material matCurrent;
     public Material matVisited;
-    private Node currentNode;
+    public Volume volume;
 
-    private void Start() => StartCoroutine(SearchPath());
+    private ChromaticAberration chromaticAberration;
+    private float speedVolume = 0.01f;
+    private Node currentNode;
+    private List<Node> testNode = new List<Node>();
+
+    private void Start()
+    {
+        volume.profile.TryGet<ChromaticAberration>(out var tmp);
+        chromaticAberration = tmp;
+
+        StartCoroutine(SearchPath());
+    }
 
     private IEnumerator SearchPath()
     {
@@ -45,7 +58,7 @@ public class AStart : MonoBehaviour
             //Get closest neoghbour and set as current
             currentNode = testNode.OrderBy(node => node.fValue).FirstOrDefault();
             testNode.Clear();
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.1f);
         }
 
         print("End searching");
@@ -54,9 +67,15 @@ public class AStart : MonoBehaviour
         var resultNodes = end;
         while (resultNodes != null)
         {
+            chromaticAberration.intensity.value = 1f;
+            while (chromaticAberration.intensity.value > 0.01f)
+            {
+                chromaticAberration.intensity.value -= speedVolume;
+                yield return null;
+            }
             resultNodes.GetComponent<MeshRenderer>().material = matCurrent;
             resultNodes = resultNodes.parent;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(.1f);
         }
         print("Path showed");
     }

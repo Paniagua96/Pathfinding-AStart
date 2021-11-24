@@ -140,7 +140,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &21197808
 MonoBehaviour:
@@ -168,6 +168,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &21197809
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -249,7 +250,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &28013148
 MonoBehaviour:
@@ -274,6 +275,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &28013149
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -355,7 +357,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &31449506
 MonoBehaviour:
@@ -382,6 +384,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &31449507
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -463,7 +466,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &49322147
 MonoBehaviour:
@@ -491,6 +494,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &49322148
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -665,7 +669,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &93162857
 MonoBehaviour:
@@ -688,6 +692,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &93162858
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -789,7 +794,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0.10272534, b: 0.26415092, a: 0}
+  m_BackGroundColor: {r: 0, g: 0.041454446, b: 0.24528301, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -885,7 +890,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &125136134
 MonoBehaviour:
@@ -908,6 +913,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &125136135
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -989,7 +995,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &143329826
 MonoBehaviour:
@@ -1017,6 +1023,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &143329827
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1098,7 +1105,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &152027560
 MonoBehaviour:
@@ -1126,6 +1133,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &152027561
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1255,7 +1263,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &171146371
 MonoBehaviour:
@@ -1283,6 +1291,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &171146372
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1364,7 +1373,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &205878767
 MonoBehaviour:
@@ -1392,6 +1401,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &205878768
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1473,7 +1483,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &235823896
 MonoBehaviour:
@@ -1500,6 +1510,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &235823897
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1581,7 +1592,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &242470705
 MonoBehaviour:
@@ -1609,6 +1620,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &242470706
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1690,7 +1702,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &249628077
 MonoBehaviour:
@@ -1718,6 +1730,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &249628078
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1799,7 +1812,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &253971195
 MonoBehaviour:
@@ -1826,6 +1839,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &253971196
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1907,7 +1921,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &262691268
 MonoBehaviour:
@@ -1935,6 +1949,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &262691269
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2016,7 +2031,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &273821130
 MonoBehaviour:
@@ -2043,6 +2058,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &273821131
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2124,7 +2140,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &287423228
 MonoBehaviour:
@@ -2152,6 +2168,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &287423229
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2233,7 +2250,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &292102525
 MonoBehaviour:
@@ -2260,6 +2277,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &292102526
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2355,8 +2373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start: {fileID: 93162857}
   end: {fileID: 1073588055}
-  matCurrent: {fileID: 2100000, guid: 671626d3fef2cbf4dbfaacf184451ac4, type: 2}
   matVisited: {fileID: 2100000, guid: e9a8b19fc21f7ab488cdb2acc9961f0c, type: 2}
+  matBelongPath: {fileID: 2100000, guid: 671626d3fef2cbf4dbfaacf184451ac4, type: 2}
   volume: {fileID: 162000929}
 --- !u!4 &303150716
 Transform:
@@ -2509,7 +2527,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &307760016
 MonoBehaviour:
@@ -2537,6 +2555,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &307760017
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2618,7 +2637,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &319756168
 MonoBehaviour:
@@ -2645,6 +2664,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &319756169
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2726,7 +2746,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &331003908
 MonoBehaviour:
@@ -2754,6 +2774,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &331003909
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2835,7 +2856,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &370240163
 MonoBehaviour:
@@ -2860,6 +2881,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &370240164
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2941,7 +2963,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &372574932
 MonoBehaviour:
@@ -2966,6 +2988,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &372574933
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3047,7 +3070,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &379282404
 MonoBehaviour:
@@ -3075,6 +3098,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &379282405
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3156,7 +3180,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &412580931
 MonoBehaviour:
@@ -3181,6 +3205,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &412580932
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3262,7 +3287,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &416079746
 MonoBehaviour:
@@ -3290,6 +3315,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &416079747
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3371,7 +3397,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &452898229
 MonoBehaviour:
@@ -3398,6 +3424,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &452898230
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3479,7 +3506,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &490988317
 MonoBehaviour:
@@ -3507,6 +3534,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &490988318
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3588,7 +3616,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &491167973
 MonoBehaviour:
@@ -3616,6 +3644,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &491167974
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3697,7 +3726,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &526565942
 MonoBehaviour:
@@ -3725,6 +3754,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &526565943
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3806,7 +3836,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &533174043
 MonoBehaviour:
@@ -3833,6 +3863,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &533174044
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3914,7 +3945,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &536307556
 MonoBehaviour:
@@ -3941,6 +3972,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &536307557
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4022,7 +4054,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &547532893
 MonoBehaviour:
@@ -4047,6 +4079,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &547532894
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4128,7 +4161,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &558116922
 MonoBehaviour:
@@ -4153,6 +4186,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &558116923
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4234,7 +4268,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &566740179
 MonoBehaviour:
@@ -4262,6 +4296,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &566740180
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4343,7 +4378,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &583032556
 MonoBehaviour:
@@ -4370,6 +4405,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &583032557
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4451,7 +4487,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &603144340
 MonoBehaviour:
@@ -4476,6 +4512,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &603144341
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4557,7 +4594,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &610994219
 MonoBehaviour:
@@ -4582,6 +4619,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &610994220
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4663,7 +4701,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &632225385
 MonoBehaviour:
@@ -4691,6 +4729,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &632225386
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4772,7 +4811,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &645059658
 MonoBehaviour:
@@ -4800,6 +4839,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &645059659
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4881,7 +4921,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &652100850
 MonoBehaviour:
@@ -4909,6 +4949,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &652100851
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4990,7 +5031,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &661242128
 MonoBehaviour:
@@ -5017,6 +5058,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &661242129
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5098,7 +5140,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &663565806
 MonoBehaviour:
@@ -5126,6 +5168,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &663565807
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5207,7 +5250,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &664619210
 MonoBehaviour:
@@ -5232,6 +5275,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &664619211
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5313,7 +5357,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &669820097
 MonoBehaviour:
@@ -5338,6 +5382,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &669820098
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5419,7 +5464,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &673546540
 MonoBehaviour:
@@ -5446,6 +5491,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &673546541
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5527,7 +5573,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &737512517
 MonoBehaviour:
@@ -5554,6 +5600,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &737512518
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5635,7 +5682,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &757261229
 MonoBehaviour:
@@ -5663,6 +5710,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &757261230
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5744,7 +5792,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &759283901
 MonoBehaviour:
@@ -5769,6 +5817,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &759283902
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5850,7 +5899,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &774593279
 MonoBehaviour:
@@ -5875,6 +5924,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &774593280
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5956,7 +6006,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &787956684
 MonoBehaviour:
@@ -5984,6 +6034,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &787956685
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6065,7 +6116,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &789037812
 MonoBehaviour:
@@ -6093,6 +6144,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &789037813
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6174,7 +6226,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &790254198
 MonoBehaviour:
@@ -6202,6 +6254,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &790254199
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6283,7 +6336,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &812192023
 MonoBehaviour:
@@ -6310,6 +6363,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &812192024
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6391,7 +6445,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &839936692
 MonoBehaviour:
@@ -6416,6 +6470,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &839936693
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6497,7 +6552,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &885626953
 MonoBehaviour:
@@ -6524,6 +6579,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &885626954
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6605,7 +6661,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &912783806
 MonoBehaviour:
@@ -6633,6 +6689,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &912783807
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6714,7 +6771,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &917028605
 MonoBehaviour:
@@ -6742,6 +6799,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &917028606
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6823,7 +6881,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &927923932
 MonoBehaviour:
@@ -6848,6 +6906,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &927923933
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6929,7 +6988,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &933331342
 MonoBehaviour:
@@ -6957,6 +7016,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &933331343
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7038,7 +7098,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &969154351
 MonoBehaviour:
@@ -7065,6 +7125,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &969154352
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7146,7 +7207,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &975834795
 MonoBehaviour:
@@ -7171,6 +7232,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &975834796
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7252,7 +7314,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &988558477
 MonoBehaviour:
@@ -7279,6 +7341,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &988558478
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7360,7 +7423,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1008022869
 MonoBehaviour:
@@ -7385,6 +7448,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1008022870
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7466,7 +7530,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1025270989
 MonoBehaviour:
@@ -7494,6 +7558,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1025270990
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7575,7 +7640,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1073588055
 MonoBehaviour:
@@ -7598,6 +7663,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1073588056
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7679,7 +7745,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1153024336
 MonoBehaviour:
@@ -7704,6 +7770,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1153024337
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7785,7 +7852,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1159894877
 MonoBehaviour:
@@ -7813,6 +7880,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1159894878
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7894,7 +7962,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1170483463
 MonoBehaviour:
@@ -7919,6 +7987,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1170483464
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8000,7 +8069,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1181439768
 MonoBehaviour:
@@ -8028,6 +8097,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1181439769
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8109,7 +8179,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1183368166
 MonoBehaviour:
@@ -8134,6 +8204,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1183368167
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8215,7 +8286,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1221697590
 MonoBehaviour:
@@ -8243,6 +8314,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1221697591
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8324,7 +8396,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1229763161
 MonoBehaviour:
@@ -8349,6 +8421,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1229763162
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8430,7 +8503,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1300927210
 MonoBehaviour:
@@ -8458,6 +8531,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1300927211
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8539,7 +8613,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1302463641
 MonoBehaviour:
@@ -8566,6 +8640,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1302463642
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8647,7 +8722,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1305338717
 MonoBehaviour:
@@ -8675,6 +8750,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1305338718
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8756,7 +8832,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1309168199
 MonoBehaviour:
@@ -8783,6 +8859,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1309168200
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8864,7 +8941,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1327579592
 MonoBehaviour:
@@ -8892,6 +8969,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1327579593
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8973,7 +9051,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1341828108
 MonoBehaviour:
@@ -9001,6 +9079,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1341828109
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9082,7 +9161,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1370780863
 MonoBehaviour:
@@ -9105,6 +9184,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1370780864
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9186,7 +9266,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1416436545
 MonoBehaviour:
@@ -9214,6 +9294,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1416436546
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9295,7 +9376,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1437282564
 MonoBehaviour:
@@ -9320,6 +9401,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1437282565
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9401,7 +9483,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1450778959
 MonoBehaviour:
@@ -9426,6 +9508,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1450778960
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9507,7 +9590,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1462866425
 MonoBehaviour:
@@ -9532,6 +9615,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1462866426
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9679,7 +9763,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1496854502
 MonoBehaviour:
@@ -9704,6 +9788,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1496854503
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9785,7 +9870,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1519466208
 MonoBehaviour:
@@ -9810,6 +9895,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1519466209
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9891,7 +9977,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1522099930
 MonoBehaviour:
@@ -9919,6 +10005,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1522099931
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10000,7 +10087,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1548005041
 MonoBehaviour:
@@ -10027,6 +10114,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1548005042
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10108,7 +10196,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1593577811
 MonoBehaviour:
@@ -10133,6 +10221,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1593577812
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10214,7 +10303,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1607700530
 MonoBehaviour:
@@ -10242,6 +10331,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1607700531
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10323,7 +10413,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1614968334
 MonoBehaviour:
@@ -10350,6 +10440,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1614968335
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10431,7 +10522,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1615199453
 MonoBehaviour:
@@ -10459,6 +10550,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1615199454
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10540,7 +10632,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1651298714
 MonoBehaviour:
@@ -10565,6 +10657,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1651298715
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10646,7 +10739,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1660099894
 MonoBehaviour:
@@ -10671,6 +10764,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1660099895
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10752,7 +10846,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1670091285
 MonoBehaviour:
@@ -10779,6 +10873,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1670091286
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10860,7 +10955,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1670316899
 MonoBehaviour:
@@ -10885,6 +10980,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1670316900
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10966,7 +11062,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1693076347
 MonoBehaviour:
@@ -10994,6 +11090,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1693076348
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11075,7 +11172,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1694080917
 MonoBehaviour:
@@ -11102,6 +11199,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1694080918
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11183,7 +11281,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1699034198
 MonoBehaviour:
@@ -11210,6 +11308,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1699034199
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11291,7 +11390,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1709290680
 MonoBehaviour:
@@ -11318,6 +11417,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1709290681
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11399,7 +11499,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1723372463
 MonoBehaviour:
@@ -11426,6 +11526,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1723372464
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11507,7 +11608,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1725500386
 MonoBehaviour:
@@ -11534,6 +11635,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1725500387
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11615,7 +11717,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1742757485
 MonoBehaviour:
@@ -11640,6 +11742,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1742757486
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11721,7 +11824,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1799298417
 MonoBehaviour:
@@ -11746,6 +11849,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1799298418
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11827,7 +11931,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1822851128
 MonoBehaviour:
@@ -11855,6 +11959,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1822851129
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11936,7 +12041,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1854976742
 MonoBehaviour:
@@ -11961,6 +12066,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1854976743
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12042,7 +12148,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1883777538
 MonoBehaviour:
@@ -12070,6 +12176,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1883777539
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12151,7 +12258,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1887131950
 MonoBehaviour:
@@ -12179,6 +12286,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1887131951
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12260,7 +12368,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1893736976
 MonoBehaviour:
@@ -12287,6 +12395,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1893736977
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12368,7 +12477,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1895637765
 MonoBehaviour:
@@ -12395,6 +12504,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1895637766
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12476,7 +12586,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1909505673
 MonoBehaviour:
@@ -12503,6 +12613,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1909505674
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12584,7 +12695,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1912677286
 MonoBehaviour:
@@ -12609,6 +12720,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1912677287
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12690,7 +12802,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1955143229
 MonoBehaviour:
@@ -12718,6 +12830,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1955143230
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12799,7 +12912,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1970804505
 MonoBehaviour:
@@ -12824,6 +12937,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1970804506
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13003,7 +13117,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1993546130
 MonoBehaviour:
@@ -13031,6 +13145,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &1993546131
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13112,7 +13227,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &2012173461
 MonoBehaviour:
@@ -13137,6 +13252,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &2012173462
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13218,7 +13334,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &2063010723
 MonoBehaviour:
@@ -13245,6 +13361,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &2063010724
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13326,7 +13443,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &2066960140
 MonoBehaviour:
@@ -13351,6 +13468,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &2066960141
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13432,7 +13550,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &2096521677
 MonoBehaviour:
@@ -13459,6 +13577,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &2096521678
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13540,7 +13659,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &2132555458
 MonoBehaviour:
@@ -13568,6 +13687,7 @@ MonoBehaviour:
   fValue: 999999
   parent: {fileID: 0}
   visited: 0
+  belongPath: 0
 --- !u!23 &2132555459
 MeshRenderer:
   m_ObjectHideFlags: 0

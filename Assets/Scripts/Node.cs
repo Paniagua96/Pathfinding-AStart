@@ -5,6 +5,7 @@ using UnityEngine;
 public class Node : MonoBehaviour
 {
     public List<Node> neighbours = new List<Node>();
+    private Renderer rend;
 
     [HideInInspector]
     public float gValue = 999999f;
@@ -19,9 +20,6 @@ public class Node : MonoBehaviour
     [HideInInspector]
     public bool belongPath;
 
-    private Material matVisited;
-    private Material matBelongPath;
-
     private void Awake()
     {
         gValue = 999999f;
@@ -31,10 +29,11 @@ public class Node : MonoBehaviour
 
     private void Start()
     {
+        //Get material to set shader properties
+        rend = GetComponent<Renderer>();
+
         //Get materials
         var aStart = FindObjectOfType<AStart>();
-        matVisited = aStart.matVisited;
-        matBelongPath = aStart.matBelongPath;
 
         //Init change materials
         StartCoroutine(NodeVisited());
@@ -45,13 +44,13 @@ public class Node : MonoBehaviour
     {
         yield return new WaitUntil(() => visited);
 
-        gameObject.GetComponent<MeshRenderer>().material = matVisited;
+        rend.material.SetInt("wasVisited", 1);
     }
 
     private IEnumerator NodeBelongPath()
     {
         yield return new WaitUntil(() => belongPath);
 
-        gameObject.GetComponent<MeshRenderer>().material = matBelongPath;
+        rend.material.SetInt("belongPath", 1);
     }
 }

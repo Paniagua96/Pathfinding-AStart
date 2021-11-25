@@ -22,6 +22,9 @@ public class Node : MonoBehaviour
 
     private void Awake()
     {
+        AStart.allNodes.Add(this);
+        AStart.OnFinishPath += ResetValues;
+
         gValue = 999999f;
         hValue = 999999f;
         fValue = 999999f;
@@ -32,8 +35,30 @@ public class Node : MonoBehaviour
         //Get material to set shader properties
         rend = GetComponent<Renderer>();
 
-        //Get materials
-        var aStart = FindObjectOfType<AStart>();
+        //Init change materials
+        StartCoroutine(NodeVisited());
+        StartCoroutine(NodeBelongPath());
+    }
+
+    private void OnDestroy()
+    {
+        AStart.OnFinishPath -= ResetValues;
+    }
+
+    private void ResetValues()
+    {
+        gValue = 999999f;
+        hValue = 999999f;
+        fValue = 999999f;
+
+        parent = null;
+        visited = false;
+        belongPath = false;
+
+        rend.material.SetInt("wasVisited", 0);
+        rend.material.SetInt("belongPath", 0);
+
+        StopAllCoroutines();
 
         //Init change materials
         StartCoroutine(NodeVisited());

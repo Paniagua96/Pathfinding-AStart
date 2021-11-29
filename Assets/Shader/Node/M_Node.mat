@@ -52,6 +52,6 @@ Material:
     - wasVisited: 0
     m_Colors:
     - BaseColor: {r: 1, g: 1, b: 1, a: 0}
-    - PathColor: {r: 0.7868679, g: 1, b: 0, a: 0}
-    - VisitedColor: {r: 0.08018869, g: 0.15525994, b: 1, a: 0}
+    - PathColor: {r: 1, g: 0.9880786, b: 0, a: 0}
+    - VisitedColor: {r: 1, g: 0, b: 0.5046425, a: 0}
   m_BuildTextureStacks: []
